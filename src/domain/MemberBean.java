@@ -76,7 +76,7 @@ public class MemberBean {
     @Override
     public String toString() {
 	// TODO Auto-generated method stub
-	return String.format("%s(%s)[ %s | %s | **** | %s | 관리자 ]",
-		name,ssn,password,phone,email);
+	return String.format("%s(%s)[ %s | %s | **** | %s | %s |관리자 ]",
+		name,ssn,password,uid,phone,email);
     }
 }

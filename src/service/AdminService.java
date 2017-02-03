@@ -29,5 +29,8 @@ public interface AdminService {
     //update
     public void changeRank(MemberBean member);
     //delete
-    public void remove(MemberBean member); //비밀번호 노출,공개키
+    public void remove(String id); //비밀번호 노출,공개키
+    //util
+    //validation
+    public boolean exist(String keyword);
 }
